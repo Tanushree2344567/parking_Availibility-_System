@@ -8,8 +8,11 @@ This project utilizes an ESP8266 microcontroller to monitor the occupancy status
 
 Features:
 Real-time Monitoring: Displays whether each parking slot is occupied or free.
+
 Web Interface: Accessible via a web browser to check status remotely.
+
 JSON API: Provides a JSON API endpoint /status to fetch the status programmatically.
+
 Hardware Requirements
 ESP8266 development board (e.g., NodeMCU)
 IR sensors (two sensors used in this project)
