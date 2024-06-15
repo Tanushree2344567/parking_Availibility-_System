@@ -13,13 +13,16 @@ Web Interface: Accessible via a web browser to check status remotely.
 
 JSON API: Provides a JSON API endpoint /status to fetch the status programmatically.
 
-Hardware Requirements
+Hardware Requirements:
+
 ESP8266 development board (e.g., NodeMCU)
 IR sensors (two sensors used in this project)
 Jumper wires
 Software Requirements
 Arduino IDE with ESP8266 board support
+
 Libraries:
+
 ESP8266WiFi
 ESP8266WebServer
 ArduinoJson (for handling JSON data)
@@ -27,12 +30,15 @@ Installation and Setup
 Hardware Setup:
 Connect IR sensors to GPIO pins of the ESP8266 board (pins D1 and D6 in this example).
 Software Setup:
+
 Install the Arduino IDE.
 Install the ESP8266 board package in the Arduino IDE.
 Install necessary libraries (ESP8266WiFi, ESP8266WebServer, ArduinoJson).
 Configuration:
 Update ssid and password variables in the sketch with your WiFi credentials.
+
 Upload Sketch:
+
 Compile and upload the provided Arduino sketch (parking_status_monitor.ino) to your ESP8266 board.
 Accessing the Web Interface:
 After uploading, open the Serial Monitor in the Arduino IDE to view the IP address assigned to your ESP8266 by the WiFi network.
